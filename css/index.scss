@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bigTable {
+    th {
+       cursor: pointer;
+       background: black;
+       color: white;
+
+    }
+    th:hover {
+        color:blanchedalmond
+    }
+}
+
+.bg-pink-200 {
+    background-color: #df3288!important; 
+    color: white;/* Example pink background color */
+    font-weight: 800;
+  }
+.bg-pink-200:hover {
+    background-color: #981858!important; 
+    color: white;/* Example pink background color */
+    font-weight: 800;
+  }
+
+  .react-calendar__month-view__days__day--weekend {
+    color: #cbcbcb!important;
+}
